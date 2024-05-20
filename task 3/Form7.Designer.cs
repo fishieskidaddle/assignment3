@@ -31,7 +31,6 @@
             this.home3 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.tsk2label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.f7label1 = new System.Windows.Forms.Label();
             this.T2Button1 = new System.Windows.Forms.Button();
@@ -39,6 +38,8 @@
             this.labeltitle = new System.Windows.Forms.Label();
             this.labelex = new System.Windows.Forms.Label();
             this.labelex2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,16 +71,6 @@
             this.tsk2label1.Size = new System.Drawing.Size(181, 99);
             this.tsk2label1.TabIndex = 28;
             this.tsk2label1.Text = "Wow! You made the computer say your name!";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = global::task_3.Properties.Resources._7456d73d_2870_4209_a942_b2a7392563ad;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 86);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(177, 165);
-            this.pictureBox2.TabIndex = 27;
-            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -151,11 +142,32 @@
             this.labelex2.TabIndex = 45;
             this.labelex2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::task_3.Properties.Resources._7456d73d_2870_4209_a942_b2a7392563ad;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 86);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(177, 165);
+            this.pictureBox2.TabIndex = 27;
+            this.pictureBox2.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("MS Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(93, 12);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 27);
+            this.label2.TabIndex = 46;
+            this.label2.Text = "TASK 2";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.labelex2);
             this.Controls.Add(this.labeltitle);
             this.Controls.Add(this.labelex);
@@ -188,5 +200,6 @@
         private System.Windows.Forms.Label labeltitle;
         private System.Windows.Forms.Label labelex;
         private System.Windows.Forms.Label labelex2;
+        private System.Windows.Forms.Label label2;
     }
 }
